@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+
+  color: #3C303E !important;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  &__name {
+  }
+
+  &__menu {
+    & nb-actions nb-action {
+      font-size: 1rem;
+
+      margin: 0 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(19, 166, 153, 0.73);
+        transition: .7s ease;
+      }
+    }
+  }
+}
